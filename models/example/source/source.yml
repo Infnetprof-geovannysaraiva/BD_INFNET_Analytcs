@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: HyTech
+    database: bd-consumo-glp
+    schema: HyTechAnalytcs
+
+    tables:
+      - name: dCalendario
+
+      - name: tabela_cliente
+
+      - name: tabela_produtos
+
+      - name: tabela_profissoes
+
+      - name: tabela_regiao
+
+      - name: tabela_vendas
