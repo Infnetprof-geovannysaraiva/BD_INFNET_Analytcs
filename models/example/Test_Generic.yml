@@ -1,0 +1,55 @@
+version: 2
+
+models:
+
+  - name: tabela_cliente
+
+    tests:
+      - unique_all_columns
+      - not_null_all_columns
+
+    columns:
+
+      - name: ID cliente
+        tests:
+          - unique_especific_columns
+
+
+  - name: tabela_produtos
+
+    tests:
+      - unique_all_columns
+      - not_null_all_columns
+
+    columns:
+
+      - name: ID produto
+        tests:
+          - unique_especific_columns
+
+
+
+      - name: Sku
+        tests:
+          - unique_especific_columns
+
+
+  - name: tabela_profissoes
+
+    tests:
+      - unique_all_columns
+      - not_null_all_columns
+
+
+  - name: tabela_regiao
+
+    tests:
+      - unique_all_columns
+      - not_null_all_columns
+
+
+  - name: tabela_vendas
+
+    tests:
+      - unique_all_columns
+      - not_null_all_columns

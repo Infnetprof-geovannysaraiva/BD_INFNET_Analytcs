@@ -1,0 +1,2 @@
+--SELECT * 
+--FROM  {{ 'bd-consumo-glp.f_Analytcs_GLP.fConsumoAparenteGlp-UF' }}
