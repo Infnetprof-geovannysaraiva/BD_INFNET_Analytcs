@@ -1,2 +1,3 @@
---SELECT * 
---FROM  {{ 'bd-consumo-glp.f_Analytcs_GLP.fConsumoAparenteGlp-UF' }}
+SELECT *
+FROM `bd-consumo-glp.f_Analycts_GLP.fConsumoAparenteGlp-UF`
+
